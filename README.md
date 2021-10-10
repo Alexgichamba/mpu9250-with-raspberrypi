@@ -10,7 +10,9 @@ pigpiod -v
 If the command is not recognized you can [download and install pigpio](https://abyz.me.uk/rpi/pigpio/download.html).
 Once pigpio is installed, you may download and build this program. To do so, run the following lines in the terminal:
 ```bash
-
+git clone https://github.com/Alexgichamba/mpu9250-with-raspberrypi.git
+cd mpu9250-with-raspberrypi/
+make
 ```
 Then you may run the program:
 ```bash
